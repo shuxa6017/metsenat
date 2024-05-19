@@ -1,0 +1,41 @@
+/* rubik */
+@font-face {
+  font-family: 'rubik';
+  src:  url('/fonts/rubik/Rubik-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'rubik';
+  src:  url('/fonts/rubik/Rubik-Medium.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 500;
+}
+
+/* sf pro display */
+@font-face {
+  font-family: 'sf-pro-display';
+  src:  url('/fonts/sf-pro-display/SFProDisplay-Medium.woff2') format('truetype');
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'sf-pro-display';
+  src:  url('/fonts/sf-pro-display/SFProDisplay-Bold.woff2') format('truetype');
+  font-display: swap;
+  font-weight: 700;
+}
+
+/* sf pro text */
+@font-face {
+  font-family: 'sf-pro-text';
+  src:  url('/fonts/sf-pro-text/SFProText-Medium.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'sf-pro-text';
+  src:  url('/fonts/sf-pro-text/SFProText-Bold.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 700;
+}

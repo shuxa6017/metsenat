@@ -1,0 +1,42 @@
+@import '../icons/style.css';
+@import 'fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'rubik';
+    font-weight: 500;
+  }
+
+  body {
+    background: #F5F5F7;
+  }
+
+}
+
+@layer utilities {
+
+  .flex-center {
+    @apply flex items-center justify-center
+  }
+
+  .flex-y-center {
+    @apply flex items-center
+  }
+
+  .flex-x-center {
+    @apply flex justify-center
+  }
+
+  .transition-300 {
+    @apply transition duration-300
+  }
+}
